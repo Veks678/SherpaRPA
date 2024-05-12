@@ -1,0 +1,119 @@
+﻿{
+  "Version": "1.25",
+  "IsDarkTheme": true,
+  "ProductVersion": "1.32",
+  "References": {
+    "Items": [
+      "Microsoft.CSharp",
+      "System",
+      "System.Core",
+      "System.Data",
+      "System.Deployment",
+      "System.IO",
+      "System.Linq",
+      "System.Net.Http",
+      "System.Text.Encoding",
+      "System.Web",
+      "System.Windows.Forms",
+      "System.Xml"
+    ]
+  },
+  "Properties": {
+    "Description": "",
+    "AllowedRunWithoutConfirm": false,
+    "InParams": [],
+    "OutParams": []
+  },
+  "Folders": [
+    {
+      "RelativePath": "",
+      "Folders": [
+        {
+          "RelativePath": "Data",
+          "Folders": [],
+          "Files": [
+            {
+              "RelativePath": "Config.xlsx",
+              "Main": false,
+              "Showing": false,
+              "Pinned": false
+            }
+          ],
+          "Links": []
+        },
+        {
+          "RelativePath": "Process",
+          "Folders": [],
+          "Files": [
+            {
+              "RelativePath": "CloseAllApplications.process",
+              "Main": false,
+              "Showing": true,
+              "Pinned": false
+            },
+            {
+              "RelativePath": "CloseChrome.process",
+              "Main": false,
+              "Showing": true,
+              "Pinned": false
+            },
+            {
+              "RelativePath": "CloseExcel.process",
+              "Main": false,
+              "Showing": true,
+              "Pinned": false
+            },
+            {
+              "RelativePath": "InitAllSettings.process",
+              "Main": false,
+              "Showing": true,
+              "Pinned": false
+            },
+            {
+              "RelativePath": "Initialization.process",
+              "Main": false,
+              "Showing": true,
+              "Pinned": false
+            },
+            {
+              "RelativePath": "KillProcesses.process",
+              "Main": false,
+              "Showing": false,
+              "Pinned": false
+            },
+            {
+              "RelativePath": "OpenChrome.process",
+              "Main": false,
+              "Showing": false,
+              "Pinned": false
+            },
+            {
+              "RelativePath": "Process.process",
+              "Main": false,
+              "Showing": true,
+              "Pinned": false
+            },
+            {
+              "RelativePath": "SaveExcel.process",
+              "Main": false,
+              "Showing": true,
+              "Pinned": false
+            }
+          ],
+          "Links": []
+        }
+      ],
+      "Files": [
+        {
+          "RelativePath": "Main.process",
+          "Main": true,
+          "Showing": true,
+          "Pinned": false
+        }
+      ],
+      "Links": []
+    }
+  ],
+  "Files": [],
+  "Links": []
+}
